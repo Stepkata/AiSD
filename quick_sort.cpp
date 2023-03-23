@@ -23,7 +23,7 @@ void QuickSort::Sort(int start, int end) {
 int QuickSort::partition(int start, int end){
     int i = start;
     int j = end +1;
-    while(1){
+    while(true){
         i++;
         while(table[i]<table[start]){
             i++;
